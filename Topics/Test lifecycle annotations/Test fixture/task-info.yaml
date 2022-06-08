@@ -1,0 +1,50 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class SampleClassTests {
+        // Your task is to setup TestUtils and instantiate the instance field.
+        SampleClass instance;
+
+        // @BeforeAll
+        static void beforeAll() {
+
+        }
+
+        // @AfterAll
+        static void afterAll() {
+
+        }
+
+        // @BeforeEach
+        void beforeEach() {
+
+        }
+
+        // @AfterEach
+        void afterEach() {
+
+        }
+
+        // @Test
+        void testMethodOne() {
+            Assertions.assertTrue(instance.methodOne());
+        }
+
+        // @Test
+        void testMethodTwo() {
+            Assertions.assertTrue(instance.methodTwo());
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12876#comment
+status: Failed
+feedback:
+  message: "Failed. Runtime error\n\nThis is a sample test from the problem statement!\n\
+    \nTest input:\ntestMethodOne\ntestMethodTwo\n\nCorrect output:\nPASSED\nPASSED\n\
+    \nYour code output:\n\n\nError:\nException in thread \"main\" java.lang.NullPointerException:\
+    \ Cannot invoke \"SampleClass.methodOne()\" because \"this.instance\" is null\n\
+    \tat SampleClassTests.testMethodOne(Main.java:107)\n\tat Main.main(Main.java:122)\n"
+  time: Mon, 06 Jun 2022 10:36:10 UTC
+record: -1
